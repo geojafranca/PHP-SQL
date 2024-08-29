@@ -1,4 +1,6 @@
 <?php
+
+/*  AULA 1  */
     include "conecta.php";
     
     echo "<br>";
@@ -78,5 +80,12 @@
         }
     } else {
         echo "Nenhum registro econtrado.";
-    }    
+    }   
+    
+
+    
+/*  AULA 2  */    
 ?>
+
+
+
