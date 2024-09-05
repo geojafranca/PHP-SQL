@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* CADASTRO*/
+
+
+.inputfield {
+    background-color: #23232e;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;   
+}
+
+label {
+    margin-top: 1rem;
+    font-size: large;
+}
+
+input {
+    margin-top: 0.5rem;
+    padding: 5px;
+}
+
+button {
+    display: flex;
+    margin-top: 1rem;
+    padding: 5px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+button:nth-of-type(1) {
+    margin-top: 2rem;
+}

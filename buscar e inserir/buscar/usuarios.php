@@ -33,7 +33,7 @@
                 while($registro = mysqli_fetch_assoc($resultado)) {
                     echo "<span> ID :   </span>". $registro["id"];
                     echo "<span> - NOME :   </span>". $registro["nome"];
-                    echo "<span> - EMAIL :   </span>:". $registro["email"];
+                    echo "<span> - EMAIL :   </span>". $registro["email"];
                     echo "<br>";
                 }
                }
